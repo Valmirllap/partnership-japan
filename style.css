@@ -1,0 +1,192 @@
+/* =========================== NavBar ===========================*/
+* {
+  margin: 0;
+  
+}
+header {
+  background-color: #1a1d24;
+}
+.container {
+  max-width: 98rem;
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-block: 1.1rem;
+}
+.nav-list {
+  position: relative;
+  display: flex;
+  list-style: none;
+}
+.nav-item {
+  min-width: 10rem;
+  text-align: center;
+  padding-block: 1rem;
+}
+.nav-link {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+.active {
+  position: absolute;
+  bottom: -1rem;
+  height: 2px;
+  width: 10rem;
+  background-color: #fff;
+  transition: transform 0.25s;
+}
+.nav-item:nth-child(2):hover ~ .active {
+  transform: translateX(10rem);
+}
+.nav-item:nth-child(3):hover ~ .active {
+  transform: translateX(20rem);
+}
+.nav-item:nth-child(4):hover ~ .active {
+  transform: translateX(30rem);
+}
+
+.button {
+  display: inline-block;
+  font-weight: 900;
+  border-radius: 2rem;
+  background-color: rgba(255, 255, 255);
+  padding: 1rem 2rem;
+  color: #1a1d24;
+  transition: color 0.25s;
+  transition: background-color 0.25s;
+}
+.button:hover {
+  background-color: #f88e8eb4;
+  color: rgba(255, 255, 255, 0.876);
+}
+
+/*=========================== Title ===========================*/
+.title {
+  width: 35%;
+  position: absolute;
+  padding: 15px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 35%;
+  margin-top: -40px;
+}
+h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+/*=========================== Both Body ===========================*/
+.flex {
+  display: flex;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+/*=========================== Body left ===========================*/
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  margin-left: 20px;
+}
+.activities { 
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 232, 205, 0.505);
+  width: 100%;
+}
+h2 {
+  padding-bottom: 60px;
+}
+
+.text-japan {
+ padding-left: 30px;
+}
+.image1 {
+  width: 100%;
+  height: 400px;
+  background-image: url(./img-video-logo/religious.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center;
+  border: 1px solid rgb(0, 0, 0);
+}
+.image2 {
+  width: 100%;
+  height: 400px;
+  background-image: url(./img-video-logo/cherry-blossom.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.image3 {
+  width: 100%;
+  height: 400px;
+  background-image: url(./img-video-logo/temple.webp);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center;
+  border: 1px solid rgb(0, 0, 0);
+}
+/*=========================== Body right ===========================*/
+
+.put-color-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 232, 205, 0.505);
+  margin-left: 60px;
+  width: 40%;
+  padding: 20px;
+}
+.put-email {
+  display: flex;
+  flex-direction: column;
+  color: aliceblue;
+  background-color: rgb(217, 80, 12);
+  width: 70%;
+  height: 400px;
+  padding: 25px;
+  margin-top: 50px;
+}
+h3 {
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 30px;
+  padding-bottom: 70px;
+}
+.space-between {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 50px;
+}
+.size-email {
+  font-size: 1.5rem;
+}
+.email {
+  width: 75%;
+}
+.button-sub{
+  width: 50%;
+  margin-top: 20px;
+  padding: 15px;
+  align-self:center;
+  color: rgba(176, 91, 6, 0.848);
+  font-weight: 900;
+  font-size: 1rem;
+  transition: color 0.25s;
+  transition: background-color 0.25s;
+
+}
+.button-sub:hover {
+  background-color: black;
+  color: white;
+}
