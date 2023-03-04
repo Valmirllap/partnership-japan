@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
 /* =========================== NavBar ===========================*/
-* {
+*, body {
+  font-family: 'Poppins', sans-serif;
   margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }
 header {
   background-color: #1a1d24;
@@ -67,16 +70,16 @@ header {
 
 /*=========================== Title ===========================*/
 .title {
-  width: 35%;
+  width: 40%;
   position: absolute;
   padding: 15px;
   background-color: rgb(255, 255, 255);
-  margin-left: 35%;
+  left: 500px;
   margin-top: -40px;
 }
 .main-title {
   text-align: center;
-  font-size: 2.4rem;
+  font-size: 2rem;
 }
 /*=========================== Both Body ===========================*/
 .flex {
@@ -139,7 +142,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   background-color: rgba(255, 232, 205, 0.505);
-  margin-left: 60px;
+  margin-left: 100px;
   width: 40%;
   height: auto;
   padding: 20px;
@@ -211,14 +214,11 @@ h2 {
   width: 100%;
 }
 .logo{
-  margin-top: 20px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin: 10px 40px 0 40px;
 }
 /* =========================== FORM USING BOOTSRAP =========================== */
 .form-body {
   background-color: #152733;
-
 }
 .form-holder {
   display: flex;
@@ -279,7 +279,6 @@ h2 {
     margin-bottom: 30px;
 }
 
-
 .form-content label{
     color: #fff;
 }
@@ -306,7 +305,6 @@ h2 {
 }
 .footer-div {
   display: flex;
-  /* flex-direction: column; */
   justify-content: space-around;
   align-items: center;
 }
