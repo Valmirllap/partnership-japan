@@ -71,11 +71,22 @@ header {
 /*=========================== Title ===========================*/
 .title {
   width: 40%;
-  position: absolute;
+  position: relative;
   padding: 15px;
   background-color: rgb(255, 255, 255);
   left: 500px;
   margin-top: -40px;
+}
+
+@media screen and (max-width: 1000px) {
+  .title {
+    width: 100%;
+    left: 0;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #f88e8eb4;
+    color: #ffffff;
+  }
 }
 .main-title {
   text-align: center;
@@ -87,6 +98,14 @@ header {
   margin-top: 50px;
   margin-left: 30px;
 }
+@media screen and (max-width: 1163px) {
+  .flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
 /*=========================== Body left ===========================*/
 .column {
   display: flex;
@@ -95,12 +114,19 @@ header {
   width: 50%;
   margin-left: 20px;
 }
+@media screen and (max-width: 1163px) {
+  .column {
+    width: 100%;
+    margin-left: 0;
+  }
+}
 .activities { 
   display: flex; 
   align-items: center;
   justify-content: center;
   width: 100%;
 }
+
 h2 {
   padding-bottom: 60px;
 }
@@ -147,6 +173,12 @@ h2 {
   height: auto;
   padding: 20px;
 }
+@media screen and (max-width: 1163px) {
+  .put-color-div{
+    width: 100%;
+    margin-left: 0;
+  }
+}
 .put-email {
   display: flex;
   flex-direction: column;
@@ -156,6 +188,12 @@ h2 {
   height: 500px;
   padding: 25px;
   margin-top: 50px;
+}
+@media screen and (max-width: 1163px) {
+  .put-email {
+    width: 60%;
+    
+  }
 }
 .title-info{
   font-family:'Times New Roman', Times, serif;
@@ -207,6 +245,12 @@ h2 {
   width: 200px;
   height: 200px;
 }
+@media screen and (max-width: 1163px) {
+  .social-image {
+    width: 300px;
+    height: 300px;
+  }
+}
 .logo-flex {
   display: flex;
   align-items: center;
@@ -215,6 +259,9 @@ h2 {
 }
 .logo{
   margin: 10px 40px 0 40px;
+}
+.logo-links {
+  width: 50px;
 }
 /* =========================== FORM USING BOOTSRAP =========================== */
 .form-body {
