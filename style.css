@@ -2,7 +2,6 @@
 /* =========================== NavBar ===========================*/
 * {
   margin: 0;
-  
 }
 header {
   background-color: #1a1d24;
@@ -75,9 +74,9 @@ header {
   margin-left: 35%;
   margin-top: -40px;
 }
-h1 {
+.main-title {
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.4rem;
 }
 /*=========================== Both Body ===========================*/
 .flex {
@@ -300,52 +299,28 @@ h2 {
     transition: all 0.3s ease;
     margin-top: 16px;
 }
-
-/* .btn-primary{
-  background-color: #6C757D;
-  outline: none;
-  border: 0px;
-  box-shadow: none;
-  transition: color 0.25s;
-  transition: background-color 0.25s;
-} */
-
-/* .btn-primary:hover, .btn-primary:focus, .btn-primary:active{
-    background-color: #000000;
-    color: #ffffff;
-    outline: none !important;
-    border: none !important;
-    box-shadow: none;
-} */
-
-/* .form-content textarea {
-  position: static !important;
-  width: 100%;
-  padding: 8px 20px;
-  border-radius: 6px;
-  text-align: left;
-  background-color: #fff;
-  border: 0;
-  font-size: 15px;
-  font-weight: 300;
-  color: #8D8D8D;
-  outline: none;
-  resize: none;
-  height: 120px;
-  -webkit-transition: none;
-  transition: none;
-  margin-bottom: 14px;
-} */
-
-/* .form-content textarea:hover, .form-content textarea:focus {
-    border: 0;
-    background-color: #ebeff8;
-    color: #8D8D8D;
-} */
-
-/* .mv-up{
-    margin-top: -9px !important;
-    margin-bottom: 8px !important;
-} */
-
 /* =========================== FOOTER =========================== */
+.footer {
+  background-color: rgb(217, 80, 12);
+  height: 150px;
+}
+.footer-div {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-items {
+  margin-top: 30px;
+}
+.footer-links, .copyright{
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 200;
+}
+.copyright-div {
+  margin-top: 30px;
+}
+.copyright {
+  text-align: center;
+}
