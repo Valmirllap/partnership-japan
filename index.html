@@ -12,6 +12,7 @@
         crossorigin="anonymous">
 </head>
 <body>
+    <!-- ============================================= HEADER - NAVBAR ============================================= -->
   <header>
     <nav class="navbar1 container1">
       <a href="index.html" class="nav-link1">WeCanTravel!</a>
@@ -26,12 +27,14 @@
     </nav>
   </header>
 <main>
+      <!-- ============================================= IMAGE + TITLE ============================================= -->
       <div class="position">
         <img class="image-fuji" src="./img-video-logo/beau-monument-montagne-fuji-pagode-chureito-au-coucher-du-soleil-au-japon.jpg" alt="Financial help to travel and see Mont fuji in japan for those who can't afford it" width="100%" height="auto">
       </div>
       <div class="title">
         <h1>Let's combat poverty</h1>
       </div>
+      <!-- ============================================= BODY LEFT - INSIDE "SECTION" ============================================= -->
       <section class="flex">
         <div class="column">
           <div class="activities">
@@ -53,9 +56,9 @@
                 interdum varius sit amet mattis. Et molestie ac feugiat sed lectus 
                 vestibulum mattis ullamcorper. Faucibus turpis in eu mi bibendum neque egestas. 
                 Faucibus purus in massa tempor nec feugiat nisl pretium fusce.</p>
-              </div>
-            </div>
-            <div class="activities">
+             </div>
+          </div>
+           <div class="activities">
               <div class="image3" alt="Japan's temple"></div>
               <div class="text-japan">
                 <h2>Lorem ipsum dolor sit amet</h2>
@@ -63,12 +66,13 @@
                   interdum varius sit amet mattis. Et molestie ac feugiat sed lectus 
                   vestibulum mattis ullamcorper. Faucibus turpis in eu mi bibendum neque egestas. 
                   Faucibus purus in massa tempor nec feugiat nisl pretium fusce.</p>
-                </div>    
-              </div>
+               </div>    
             </div>
+         </div>
+        <!-- ============================================= BODY RIGHT AND SOCIAL-MEDIA - INSIDE "SECTION" ============================================= -->
         <div class="put-color-div">
           <div class="put-email">
-            <h3>To get more informations</h3>
+            <h3 class="title-info">To get more informations</h3>
             <form class="space-between" action="send-info">
               <label class="size-email" for="email">E-mail*</label>
               <input type="email" name="email" id="email" placeholder="Example@test.com" class="email">
@@ -91,11 +95,65 @@
                   <div class="logo"><a href="#"><img src="./img-video-logo/instagram-line.svg" alt="Follow instagram-japan and explore with us"></a></div>
                   <div class="logo"><a href="#"><img src="./img-video-logo/twitter-fill.svg" alt="Follow twitter-japan and explore with us"></a></div>
                 </div>
-          </div>
+         </div>
       </section>
-      <form>
+<!-- ============================================= FORM USING BOOTSTRAP ============================================= -->
+  <div class="form-body">
+    <div class="row">
+      <div class="form-holder">
+        <div class="form-content">
+          <div class="form-items">
+            <h3>Register donation</h3>
+            <p>Fill below.</p>
+            <form class="start-form">
 
-      </form>
+              <div class="col-md-12">
+                <input class="form-control" type="text" name="name" placeholder="Full Name">
+              </div>
+
+              <div class="col-md-12">
+                <input class="form-control" type="email" name="email" placeholder="E-mail Address">
+              </div>
+
+              <div class="col-md-12">
+                <input class="form-control mt-3" type="date" id="birthday" name="birthday">
+              </div>
+
+              <div class="col-md-12">
+                <input class="form-control" type="password" name="password" placeholder="Password">
+              </div>
+
+              <div class="col-md-12 mt-3">
+                <label class="mb-3 mr-1" for="gender">Gender: </label>
+
+                <input type="radio" class="btn-check" name="gender" id="male" autocomplete="off">
+                <label class="btn btn-sm btn-outline-secondary" for="male">Male</label>
+
+                <input type="radio" class="btn-check" name="gender" id="female" autocomplete="off">
+                <label class="btn btn-sm btn-outline-secondary" for="female">Female</label>
+
+                <input type="radio" class="btn-check" name="gender" id="secret" autocomplete="off">
+                <label class="btn btn-sm btn-outline-secondary" for="secret">Secret</label>
+              </div>
+
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="">
+                <label class="form-check-label">I confirm that all data are correct</label>
+              </div>
+
+              <div class="form-button mt-3">
+                <button id="submit" type="submit" class="btn btn-primary">Register</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ============================================= FOOTER ============================================= -->
+  <footer>
+    <div></div>
+  </footer>
 </main>
 
 
